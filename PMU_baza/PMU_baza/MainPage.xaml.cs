@@ -14,5 +14,12 @@ namespace PMU_baza
         {
             InitializeComponent();
         }
+
+        private async void logIn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new IZBOR());
+            
+
+        }
     }
 }
