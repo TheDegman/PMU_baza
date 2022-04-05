@@ -4,6 +4,7 @@
              x:Class="PMU_baza.UNOS">
     <ContentPage.Content>
         <StackLayout>
+            <DatePicker 
             <Entry Placeholder="Struja"
                    x:Name="Struja"
                   ></Entry>
