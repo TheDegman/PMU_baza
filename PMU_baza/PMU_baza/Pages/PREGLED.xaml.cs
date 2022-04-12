@@ -10,11 +10,17 @@ using Xamarin.Forms.Xaml;
 namespace PMU_baza
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class UNOS : ContentPage
+    public partial class PREGLED : ContentPage
     {
-        public UNOS()
+        public PREGLED()
         {
             InitializeComponent();
+        }
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            collectionView1.ItemsSource = await App.Database.GetPeopleAsync();
+
         }
     }
 }

@@ -10,11 +10,17 @@ using Xamarin.Forms.Xaml;
 namespace PMU_baza
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PREGLED : ContentPage
+    public partial class UNOS : ContentPage
     {
-        public PREGLED()
+        public UNOS()
         {
             InitializeComponent();
+        }
+        
+
+        private void Unos_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

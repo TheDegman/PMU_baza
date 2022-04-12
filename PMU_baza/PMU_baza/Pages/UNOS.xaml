@@ -4,7 +4,7 @@
              x:Class="PMU_baza.UNOS">
     <ContentPage.Content>
         <StackLayout>
-            <DatePicker 
+            <DatePicker></DatePicker>
             <Entry Placeholder="Struja"
                    x:Name="Struja"
                   ></Entry>
@@ -14,6 +14,11 @@
             <Entry Placeholder="TV"
                    x:Name="TV"
                    ></Entry>
+            <Entry Placeholder="Voda"
+                   x:Name="Voda"></Entry>
+            <Button Text="Unos"
+                    x:Name="Unos"
+                    Clicked="Unos_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
